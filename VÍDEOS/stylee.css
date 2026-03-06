@@ -1,0 +1,34 @@
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+    margin:0;
+    text-align:center;
+}
+
+header{
+    background:#333;
+    color:white;
+    padding:10px;
+}
+
+.galeria{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+    padding:10px;
+}
+
+.imagem{
+    width:10px;
+    height:10px;
+    overflow:hidden;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.imagem img{
+    width:10%;
+    height:10%;
+    object-fit:cover;
+}
