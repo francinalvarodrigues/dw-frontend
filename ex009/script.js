@@ -14,6 +14,7 @@ console.log('O aluno está aprovada!')
 console.log('O aluno está reprovado!')
 }
 
+/* * As condições são: Se o aluno tem média maior que 7 ele está Aprovado. Se a nota estiver entre 6 e 7, ele está de Recuperação, caso a nota dele seja menor que 6, ele está Reprovado. */
 
 if(media>= 7){
 console.log('O aluno está aprovado!')
